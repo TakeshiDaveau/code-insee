@@ -1,9 +1,9 @@
-window.codeInsee = (function() {
+this.codeInsee = (function() {
     "use strict";
 
     return {
         validateSiren: validateSiren,
-        validateVATNumber: validateVATNumber,
+//        validateVATNumber: validateVATNumber,
         generateSiren: generateSiren,
         generateVATNumber: generateVATNumber
     };
@@ -19,7 +19,7 @@ window.codeInsee = (function() {
         return total % 10 === 0;
     }
 
-    function validateVATNumber(number) {
+    /*function validateVATNumber(number) {
         var numString = number.toString();
         var total = 0;
 
@@ -28,7 +28,7 @@ window.codeInsee = (function() {
             total += ((value < 10) ? value : (1 + value % 10));
         }
         return total % 10 === 0;
-    }
+    }*/
 
     /*function validateSiret(number) {
         // TODO
