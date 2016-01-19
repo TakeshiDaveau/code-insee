@@ -11,5 +11,10 @@ A very simple library the validate and generate SIREN, SIRET and VAT number. See
     
 3. Call the different method :
     
-    - `codeInsee.validateSiren(number)`, `codeInsee.validateVATNumber(number)` for validation
+    - `codeInsee.validateSiren(number)` for validation
     - `codeInsee.generateSiren()`, `codeInsee.generateVATNumber()` for generation
+
+## TODO
+- Add VAT number validation
+- Add SIREN validation and generation
+- Add European i18n (at least for VAT number)
