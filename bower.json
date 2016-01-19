@@ -1,0 +1,17 @@
+{
+  "name": "code-insee",
+  "description" : "Pure JS, French company INSEE numbers generator and validator",
+  "version": "0.0.1",
+  "main": [
+    "./dist/code-insee.min.js"
+  ],
+  "keywords": [
+    "VAT",
+    "TVA",
+    "INSEE"
+  ],
+  "license": "MIT",
+  "authors": [
+    "TakeshiDaveau <TakeshiDaveau.dev@gmail.com>"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "code-insee",
+  "description" : "Pure JS, French company INSEE numbers generator and validator",
+  "version": "0.0.1",
+  "author": "TakeshiDaveau <TakeshiDaveau.dev@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/TakeshiDaveau/code-insee",
+  "bugs": {
+    "url": "https://github.com/TakeshiDaveau/code-insee/issues"
+  },
+  "devDependencies": {
+    "gulp" : "3.9.0",
+    "gulp-minify" : "0.0.5",
+    "gulp-jshint": "2.0.0",
+    "jshint-stylish": "2.1.0"
+  }
+}
